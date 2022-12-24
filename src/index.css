@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+
+@layer base {
+    li {
+        @apply p-4
+    }
+
+    button {
+        @apply text-white border bg-orange-600 border-orange-600 
+        hover:bg-transparent hover:text-orange-600 rounded-md
+    }
+  
+    
+}
+.nav-item > .active {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    text-decoration: none;
+   font-size: 1.2rem;
+    color: orange
+  }
